@@ -95,4 +95,5 @@ plt.plot([0, 5], [0, 5], color='black',linewidth=.5, linestyle='--', label='Perf
 plt.xlim(0,5.5)
 plt.ylim(0,5)
 plt.gca().set_aspect("equal", adjustable="box")
+plt.legend()
 plt.show()
